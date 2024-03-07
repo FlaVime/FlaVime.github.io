@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.content {
+  max-width: 100%; /* Регулируйте ширину контента по вашему усмотрению */
+  margin: 0 auto; /* Центрирование контента */
+}
+
+h1 {
+  font-size: 34px; /* Измените это значение в соответствии с вашими предпочтениями */
+}
+
+.tulip img {
+  width: 80px; /* Регулируйте размер изображения по вашему усмотрению */
+  cursor: pointer;
+}
+
+  #gif1, #gif2, #gif3, #gif4, #gif5 {
+    pointer-events: none;
+  }
+
+  .beautiful-button {
+    background-color: #FF69B4; /* Розовый */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт */
+}
